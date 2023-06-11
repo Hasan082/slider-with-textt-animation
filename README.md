@@ -1,4 +1,4 @@
-# Hi there 👋, I am Hasan.  
+# Hi there 👋, I am Hasan Full Stack Web and Flutter Mobile Developer.  
 
 # Slider With Text Animation
 ### Build A hero section slider using owl carousel and own made text animatiion.
