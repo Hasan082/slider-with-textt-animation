@@ -4,7 +4,7 @@ $(document).ready(function () {
     nav: true,
     items: 1,
     autoplay: true,
-    autoplayTimeout: 7000,
+    autoplayTimeout: 8000,
     smartSpeed: 1000,
     navText: [
       '<img src="./assets/images/prev-white.png" alt="">',
