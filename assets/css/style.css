@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* navigation css */
+nav.navigation {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+
+nav.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav.navigation ul li {
+  display: inline-block;
+}
+
+nav.navigation ul li a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0  30px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+
+
+
+/* Heder css */
+
+.word-wrap h1>span {
+  display: block;
+}
+
+.word-wrap h1 {
+  color: #fff;
+  font-size: 65px;
+  line-height: 1;
+}
+
+.word-wrap {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}
+
+.item {
+  height: 0;
+  padding-top: 90vh;
+  background-image: url(/assets/images/item-bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.item-bg-1 {
+  background-image: url(/assets/images/item-bg-1.jpg);
+}
+
+.item-bg-2 {
+  background-image: url(/assets/images/item-bg-2.jpg);
+}
+
+.item-bg-3 {
+  background-image: url(/assets/images/item-bg-3.jpg);
+}
+
+.owl-carousel {
+  position: relative;
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 50%;
+  left: 25px;
+  color: #fff !important;
+  font-size: 30px !important;
+  line-height: 1 !important;
+  transform: translateY(-50%);
+}
+
+
+.owl-nav button.owl-next {
+  left: auto;
+  right: 25px;
+}
+
+
+
+
+
